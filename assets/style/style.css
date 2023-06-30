@@ -1,0 +1,530 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Quicksand:wght@500;700&family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  background-color: #2c2d34;
+}
+
+main {
+  display: flex;
+  background-color: #2c2d34;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+  align-items: center;
+}
+
+colgroup {
+  color: #2c2d34;
+  color: #e94822;
+  color: #ffc60b;
+  color: #efd510;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  position: fixed;
+  display: flex;
+  padding-inline: 2rem;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  z-index: 999;
+}
+
+nav li {
+  list-style-type: none;
+  gap: 2em;
+  padding-inline: 2rem;
+}
+
+header nav ul li a:hover {
+  color: #ffc60b;
+}
+
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main .content #home {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+main .content #home .home-description .title {
+  color: #ffc60b;
+}
+
+main .content #home .home-description .title2 {
+  color: azure;
+  margin-bottom: 1rem;
+}
+
+main .content #home .home-description p {
+  color: azure;
+}
+
+main .content #home .home-gambar > img {
+  width: 60%;
+  margin-right: 10px;
+  height: 100%;
+}
+
+.table-1 th a {
+  color: azure;
+}
+
+.content .title-about {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.content #aboutme .about {
+  font-size: 2rem;
+  color: #ffc60b;
+}
+
+.content #aboutme .me {
+  font-size: 2rem;
+  color: azure;
+}
+
+#aboutme h3 {
+  color: azure;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#aboutme .personalinfo .table-all {
+  display: flex;
+}
+
+#aboutme .personalinfo table {
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+}
+
+#aboutme .personalinfo .table-1 td,
+th {
+  display: inline-flex;
+}
+
+#aboutme .personalinfo .table-2 td,
+th {
+  display: inline-flex;
+}
+
+#aboutme .personalinfo .button-download {
+  margin-top: 2rem;
+}
+
+#aboutme .personalinfo .button-download button {
+  padding: 0.8rem 1rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: white;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  border-radius: 20px;
+  border-color: #efd510;
+}
+
+.content-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar-html::before {
+  content: "90%";
+  color: azure;
+}
+
+.progress-bar-css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #2c2d34 75%, transparent 80% 100%), conic-gradient(#ffc60b 80%, #25262c 0);
+}
+.progress-bar-css::before {
+  content: "80%";
+  color: azure;
+}
+
+.progress-bar-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #2c2d34 75%, transparent 80% 100%), conic-gradient(#ffc60b 75%, #25262c 0);
+}
+.progress-bar-js::before {
+  content: "75%";
+  color: azure;
+}
+
+.progress-bar-uiux,
+.progress-bar-pm,
+.progress-bar-html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #2c2d34 75%, transparent 80% 100%), conic-gradient(#ffc60b 90%, #25262c 0);
+}
+.progress-bar-uiux::before {
+  content: "90%";
+  color: azure;
+}
+.progress-bar-pm::before {
+  content: "90%";
+  color: azure;
+}
+
+#aboutme .personalinfo h5 {
+  color: azure;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#experience {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+#experience .content-experience {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-title {
+  margin: 3%;
+  width: 20rem;
+}
+
+.content-title .year h4 {
+  position: relative;
+  display: flex;
+  padding: 0.4em;
+  border-radius: 20%;
+  background-color: #25262c;
+}
+
+.content-title .year {
+  font-size: 16px;
+  color: azure;
+  display: flex;
+  margin-bottom: 2px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.content-title .year::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 3px solid #ffc60b;
+  top: 8px;
+  left: 0;
+  border-radius: 50px;
+}
+
+.content-title .title-experience {
+  font-size: 15px;
+  color: azure;
+  line-height: 20px;
+  border: 3px solid #25262c;
+  border-width: 0 0 0 3px;
+  padding: 5px 0 5px 16px;
+  margin-left: 5px;
+}
+
+.title-experience {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.content-title p {
+  font-size: 15px;
+  color: azure;
+  line-height: 35px;
+  border: 3px solid #25262c;
+  border-width: 0 0 0 3px;
+  padding: 5px 0 5px 16px;
+  margin-left: 5px;
+}
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+  z-index: 1;
+}
+
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li {
+  list-style-type: none;
+}
+
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media li a:hover {
+  color: #ffc60b;
+}
+
+.content #getintouch {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  color: azure;
+}
+
+.content #getintouch .touch {
+  color: #ffc60b;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-info {
+  flex-basis: 50%;
+  padding: 20px;
+  background-color: #212227;
+  color: azure;
+}
+
+.contact-info h2,
+.info-message {
+  margin-bottom: 10px;
+  background-color: #212227;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-icon ul li {
+  list-style: none;
+}
+
+.contact-icon ul li a {
+  display: flex;
+  text-decoration: none;
+  color: azure;
+}
+
+.contact-icon ul li a .icon-img img {
+  margin-right: 10px;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  background-color: #212227;
+}
+
+.contact-form {
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-form h2,
+.contact-info h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form .name-email {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 45%;
+  padding: 8px;
+  margin-bottom: 10px;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 20px;
+  background-color: #212227;
+  color: azure;
+}
+
+form .subject-message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input[type="subject"],
+textarea {
+  width: 97%;
+  padding: 8px;
+  margin-bottom: 5px;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 20px;
+  background-color: #212227;
+  color: azure;
+}
+
+input[type="submit"] {
+  padding: 5px 5px;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  border: 3px solid transparent;
+  cursor: pointer;
+  color: azure;
+  border-radius: 20px;
+  border: 2px solid #efd510;
+  background-color: #212227;
+  width: 20%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffc60b;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+  z-index: 798;
+}
+
+@media screen and (max-width: 728px) {
+  .content #home {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+  }
+
+  #home .home-description p {
+    display: flexbox;
+    width: 80%;
+  }
+
+  .personalinfo .table-all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personalinfo #skills {
+    justify-content: center;
+  }
+
+  .personalinfo .content-skills {
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 1rem;
+  }
+
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+
+  main {
+    padding: 1rem 3rem;
+  }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  main .content .content-description title {
+    font-size: 3rem;
+  }
+
+  main .content .content-description p {
+    font-size: 1rem;
+  }
+
+  main .content .content-image {
+    order: -1;
+  }
+}
+
+/* @media screen and(max-width: 750px) {
+} */
